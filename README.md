@@ -23,7 +23,7 @@ Los principales guiones del proyecto son:
 - **server_model.py**: este es el script principal donde se captura videos, detecta rostros y predice la edad y el sexo. Además, realiza un seguimiento de la edad y el sexo más detectados y publica estos datos en una base de datos. También aplica una imagen de fondo específica basada en el género más detectado. (*Este es el servidor principal correr este archivo para ejecutar el proyecto*)
 El proyecto también se conecta a una base de datos SQL Server usando SQLAlchemy y pyodbc, como se ve en server_model.py. Los detalles de la conexión de la base de datos se obtienen de las variables de entorno.
 
-Para instalarlo se requieren las siguientes dependencias --> 
+Se requieren las siguientes dependencias para ejecutar el programa --> 
     - OpenCV
     - SQLAlchemy
     - PYODBC
